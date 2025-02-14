@@ -1,0 +1,49 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px 200px 200px 600px 90px ;
+}
+.logo {
+grid-column: 1/4 ;
+grid-row: 2/4 ;
+background-color: blue;
+color: fuchsia;
+}
+
+.header {
+    grid-column: 1/4 ;
+    grid-row: 2/3 ;
+    background-color: rgb(0, 255, 0);
+    color: fuchsia;
+}
+.intro {
+    grid-column: 1/4 ;
+    grid-row: 3/4 ;
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+.box1 {
+    grid-column: 1/2 ;
+    grid-row: 4/5;
+    background-color: rgb(255, 208, 0);
+    color: rgb(255, 255, 255);
+}
+.box2 {
+    grid-column: 2/3 ;
+    grid-row: 4/5;
+    background-color: rgb(2, 183, 255);
+    color: fuchsia;
+}
+.box3 {
+    grid-column: 3/4;
+    grid-row: 4/5;
+    background-color: rgb(99, 43, 5);
+    color: rgb(0, 255, 242);
+}
+.footer {
+    grid-column: 1/4 ;
+    grid-row: 5/6 ;
+    background-color: rgb(255, 0, 191);
+    color: rgb(60, 255, 0);
+}
